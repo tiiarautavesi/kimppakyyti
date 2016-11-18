@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* PALVOKAAMME TIIAA, JOKA ON KOULUSSA PERJANTAI AAMUNA, JOKA KOODAA KUIN HUOMISTA EI OLISI, JOKA ON TARPONUT LÄPI LUMEN JA PAKKASEN, JOKA EI PELKÄÄ EDES MÖRKÖJÄ. */
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+body {
+  background-color: #8CD0D0;
+  color: black;
+  cursor: auto;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+a:hover {
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  margin-top: 0.2rem;
+  text-rendering: optimizeLegibility; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 1.6875rem; }
+
+h3 {
+  font-size: 1.375rem; }
+
+h4 {
+  font-size: 1.125rem; }
+
+h5 {
+  font-size: 1.125rem; }
+
+h6 {
+  font-size: 1rem; }
+
+/* Helpful Typography Defaults */
+em,
+i {
+  font-style: italic;
+  line-height: inherit; }
+
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit; }
+
+small {
+  font-size: 60%;
+  line-height: inherit; }
+
+
+/* Koitan tehdä palikkarakennetta */
+
+aside { 
+
+    float: right;
+    width: 10%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+header {
+  margin: 2rem auto;
+  padding: 0.1rem;
+  max-width: 62.5rem;
+  width: 90%; 
+
+}
+
+main {
+  margin: 2rem auto;
+  padding: 0.1rem;
+  max-width: 62.5rem;
+  width: 90%; 
+  background-color: #BADBDB;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 62.5rem;
+  width: 90%; 
+  background-color: #8CD0D0;
+  text-align: center;
+}
+
+form {
+  font: sans-serif;
+}
+
+footer {
+  color: black;
+}
+
+/*
+.valikko {
+  margin: 2rem auto;
+  padding: 0.1rem;
+  max-width: 62.5rem;
+  width: 90%; 
+  background-color: #BADBDB;}
+
+.sivu {
+  margin: 2rem auto;
+  padding: 0.1rem;
+  max-width: 62.5rem;
+  width: 90%; 
+  background-color: #BADBDB; }
+*/

@@ -1,0 +1,36 @@
+<!--<form method="POST" action="confirm.php">
+                            <?php
+                                if(isset($_SESSION['givenData'])) {//ollaanko muuttamassa käyttäjätietoa, eli onko kirjautunut käyttäjä
+                                    $givenData = unserialize($_SESSION['givenData']);
+                            ?>
+                            
+							<input type="text" name="data[fname]" value="<?php echo $givenData['fname']; ?>" required/>
+							<input type="text" name="data[lname]" value="<?php echo $givenData['lname']; ?>" required/>
+                            <input type="email" name="data[email]" value="<?php echo $givenData['email']; ?>" required/>
+                            <input type="password" name="data[password]" value="<?php echo $givenData['password']; ?>" required/>
+                            <input type="text" name="data[phone]" value="<?php echo $givenData['phone']; ?>" required/>
+                            <input type="text" name="data[bday]" value="<?php echo $givenData['bday']; ?>" required/>
+                            <select name="data[sex]" value="<?php echo $givenData['sex']; ?>">
+                            <option label="Mies" value="mies">Mies</option>
+                            <option label="Nainen" value="nainen">Nainen</option>
+                            <option label="Muu" value="muu">Muu</option>
+                            </select>
+                            
+                            <?php
+                                }else{ //Luodaan uudet käyttäjätunnukset jos ei kirjautunut
+                                    ?>
+                                    <input type="text" name="data[fname]" placeholder="Etunimi" required/>
+                                    <input type="text" name="data[lname]" placeholder="Sukunimi" required/>
+                                    <input type="email" name="data[email]" placeholder="Sähköposti" required/>
+                                    <input type="password" name="data[password]" placeholder="Salasana" required/>
+                                    <input type="text" name="data[phone]" placeholder="Puhelinnumero" required/>
+                                    <input type="text" name="data[bday]" placeholder="Syntymäaika pv.kk.vvvv" required/>
+                                    <select name="data[sex]">
+                                    <option label="Mies" value="mies">Mies</option>
+                                    <option label="Nainen" value="nainen">Nainen</option>
+                                    <option label="Muu" value="muu">Muu</option>
+                                    </select>
+                                
+                                <?php
+                                }
+                                ?>-->

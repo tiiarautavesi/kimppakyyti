@@ -13,14 +13,14 @@ html {
 body {
   background-color: #8CD0D0;
   color: black;
-  cursor: auto;
   font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  position: relative; }
+  position: relative; 
+}
 
 a:hover {
   cursor: pointer; }
@@ -84,18 +84,14 @@ aside {
 }
 
 header {
-  margin: 2rem auto;
-  padding: 0.1rem;
-  max-width: 62.5rem;
-  width: 90%; 
-
+  width: 100%; 
 }
 
 main {
   margin: 2rem auto;
   padding: 0.1rem;
   max-width: 62.5rem;
-  width: 90%; 
+  width: 100%; 
   background-color: #BADBDB;
 }
 
@@ -104,7 +100,6 @@ section {
   padding: 1rem;
   max-width: 62.5rem;
   width: 90%; 
-  background-color: #8CD0D0;
   text-align: center;
 }
 
@@ -131,3 +126,71 @@ footer {
   width: 90%; 
   background-color: #BADBDB; }
 */
+
+/* floattaavan navigaation taikaa */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center center;
+    vertical-align: center;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.profile{
+    float: left; 
+}
+
+aside{
+    float: right;
+}
+
+section div {
+  padding: 1rem;
+  max-width: 62.5rem;
+  width: 100%; 
+  text-align: left;
+}
+
+.uploadnew:hover{
+    content: url(img/addImg.jpg); /* no need for qoutes */
+}
+
+#photo {
+   background-image: url('img/tiia.png');
+   height: 120px;
+   width: 120px;
+}
+
+#photo:hover {
+   background-image: url('img/tiia.png');
+}

@@ -1,0 +1,22 @@
+<?php
+
+/*
+    if(isset($_POST["login"])){
+        $user = login($_POST["givenEmail"], $_POST["givenPassword"], $DBH)
+            //mysteeriongelma, ratkaiskaa ihmeessä
+            //no joo
+        if($user){
+            $_SESSION['loggedIn'] = "yes";
+            $_SESSION['fname'] = $user->fname;
+            $_SESSION['email'] = $user->email;
+            unset($_SESSION['viesti']);
+            redirect("index.php");
+        }else{
+            $_SESSION['viesti'] = "Väärä salasana tai sähköposti"
+        }
+    }else if (isset($_POST["cancel"])){
+        unset($_SESSION['message']);
+        redirect("index.php");
+    }
+    */
+?> 
